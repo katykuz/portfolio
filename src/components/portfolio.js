@@ -8,6 +8,10 @@ export default class Porfolio extends Component {
     modal:{}
   }
 
+  closeModal = () => {
+    this.setState({modal:{} })
+  }
+
   render() {
     const {modal} = this.state
     return (<section id="portfolio">
@@ -37,6 +41,23 @@ export default class Porfolio extends Component {
           </div>
         </div>
       </div>
+
+      <Modal 
+                    visible={modal&&modal.name}
+                    width="600"
+                    height="400"
+                    effect="fadeInUp"
+                    onClickAway={() => this.closeModal()}
+                >
+                    <div className="portfolio-modal">
+                        <h1>{modal.title}</h1>
+                        <p>{modal.description}</p>
+                        <a href={modal.githubLink} target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i>&nbsp; Github Repository</a>
+                        </div>
+                        <div className="buttonlocation">                       
+                        <button className="button" onClick={() => this.closeModal()}>Close</button>
+                    </div>
+                </Modal>
 
   </section>);
   }

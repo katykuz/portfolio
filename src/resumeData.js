@@ -1,9 +1,9 @@
 let resumeData = {
-  name: "Jane Doe",
-  role: "Frontend Web Developer",
-  linkedinId:"evanfeenstra",
+  name: "Brandi Halabi",
+  role: "Make-Up Design Artist",
+  linkedinId:"katyk78",
   skypeid: "Your skypeid",
-  roleDescription: "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or play music in my free time.",
+  roleDescription: "I'm passionate about making people feel beautiful for special events and experimenting with new designs",
   socialLinks:[
       {
         name:"linkedin",
