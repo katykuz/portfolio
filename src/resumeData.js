@@ -21,24 +21,24 @@ let resumeData = {
         className:"fa fa-skype"
       }
     ],
-  aboutme:"I have finished my B.S. in Human Centered Design and Engineering, and am currently seeking a Web Development position.",
-  address:"Seattle, Washington",
-  education:[
-    {
-      UniversityName:"University of Washington",
-      specialization:"Some specialization",
-      MonthOfPassing:"June",
-      YearOfPassing:"2019",
-      Achievements:"Some Achievements"
-    },
-    {
-      UniversityName:"Some University",
-      specialization:"Some specialization",
-      MonthOfPassing:"Jan",
-      YearOfPassing:"2018",
-      Achievements:"Some Achievements"
-    }
-  ],
+  aboutme:"I am a self-taught make up artist that is inspired by artistic realism, optical illusions, FX make up style, as well as keeping up with latest modern make-up technologies.",
+  address:"Laughlin, Nevada",
+  //education:[
+    //{
+     // UniversityName:"University of Washington",
+      //specialization:"Some specialization",
+      //MonthOfPassing:"June",
+      //YearOfPassing:"2019",
+      //Achievements:"Some Achievements"
+   // },
+    //{
+    //  UniversityName:"Some University",
+    //  specialization:"Some specialization",
+    //  MonthOfPassing:"Jan",
+     // YearOfPassing:"2018",
+     // Achievements:"Some Achievements"
+  //  }
+  //],
   work:[
     {
       CompanyName:"Some Company",
@@ -75,7 +75,7 @@ let resumeData = {
       name:"project1",
       description:"mobileapp",
       imgurl:"images/portfolio/phone.jpg",
-      title:"Phone App",
+      title:"Natural Looks",
       githubLink:"https://github.com",
       fullDescription:"this is a longer description about this app"
     },
@@ -83,7 +83,7 @@ let resumeData = {
       name:"project2",
       description:"mobileapp",
       imgurl:"images/portfolio/project.jpg",
-      title:"Something",
+      title:"Holiday Looks",
       githubLink:"https://github.com",
       fullDescription:"this is a longer description about this app"
     },
@@ -91,7 +91,7 @@ let resumeData = {
       name:"project3",
       description:"mobileapp",
       imgurl:"images/portfolio/chatter.jpg",
-      title:"Hello",
+      title:"FX Looks",
       githubLink:"https://github.com",
       fullDescription:"this is a longer description about this app"
     },

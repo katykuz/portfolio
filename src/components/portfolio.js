@@ -44,15 +44,15 @@ export default class Porfolio extends Component {
 
       <Modal 
                     visible={modal&&modal.name}
-                    width="600"
-                    height="400"
+                    width="1000"
+                    height="600"
                     effect="fadeInUp"
                     onClickAway={() => this.closeModal()}
                 >
                     <div className="portfolio-modal">
                         <h1>{modal.title}</h1>
                         <p>{modal.description}</p>
-                        <a href={modal.githubLink} target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i>&nbsp; Github Repository</a>
+                        <a href={modal.githubLink} target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i>&nbsp; Instagram </a>
                         </div>
                         <div className="buttonlocation">                       
                         <button className="button" onClick={() => this.closeModal()}>Close</button>
