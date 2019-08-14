@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import resumeData from '../resumeData';
 import Modal from 'react-awesome-modal';
+//import NaturalLook2 from '../NaturalLook2.jpg'
 
 export default class Porfolio extends Component {
 
@@ -25,7 +26,7 @@ export default class Porfolio extends Component {
                 <div key={i} className="columns portfolio-item">
                   <div className="item-wrap">
                     <div onClick={()=>this.setState({modal:item})} style={{cursor:'pointer'}}>
-                      <img src={`${item.imgurl}`} className="item-img" alt="img"/>
+                      <img src={`${item.imgurl}`} className="item-img" alt="img" style={{height:300}}/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
@@ -52,9 +53,14 @@ export default class Porfolio extends Component {
                     <div className="portfolio-modal">
                         <h1>{modal.title}</h1>
                         <p>{modal.description}</p>
+                        <div className="portfolio images">
+                          {modal.imagearray && modal.imagearray.map((url)=>{
+                            return <img src={url} alt="img" style={{height:300}}/>
+                          })}             
+                          </div>
                         <a href={modal.githubLink} target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i>&nbsp; Instagram </a>
                         </div>
-                        <div className="buttonlocation">                       
+                        <div className="buttonlocation">                     
                         <button className="button" onClick={() => this.closeModal()}>Close</button>
                     </div>
                 </Modal>

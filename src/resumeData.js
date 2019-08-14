@@ -7,7 +7,7 @@ let resumeData = {
   socialLinks:[
       {
         name:"linkedin",
-        url:"https://www.linkedin.com/in/evanfeenstra",
+        url:"https://www.linkedin.com/in/brandi-halabi-a5b5226b?trk=people-guest_profile-result-card_result-card_full-click",
         className:"fa fa-linkedin"
       },
       {
@@ -41,18 +41,18 @@ let resumeData = {
   //],
   work:[
     {
-      CompanyName:"Some Company",
-      specialization:"Some specialization",
-      MonthOfLeaving:"Jan",
+      CompanyName:"Weddings",
+      specialization:"Hair and Make-Up",
+      MonthOfLeaving:"Summer",
       YearOfLeaving:"2018",
-      Achievements:"Some Achievements"
+      Achievements:"Complete do-up of hair and make-up for that special day. I bring my own tools and make-up for the event."
     },
     {
-      CompanyName:"Some Company",
-      specialization:"Some specialization",
-      MonthOfLeaving:"Jan",
-      YearOfLeaving:"2018",
-      Achievements:"Some Achievements"
+      CompanyName:"Photoshoots and Modeling",
+      specialization:"Hair, Make-Up, Body Paint",
+      MonthOfLeaving:"Summer",
+      YearOfLeaving:"2017",
+      Achievements:"Ranging from high-school senior pictures to themed modeling and body paint"
     }
   ],
   skillsDescription:"My skills:",
@@ -72,28 +72,31 @@ let resumeData = {
   ],
   portfolio:[
     {
-      name:"project1",
-      description:"mobileapp",
-      imgurl:"images/portfolio/phone.jpg",
+      name:"Natural Looks",
+      description:"For everyday and special occasions",
+      imgurl:"images/portfolio/NaturalLook2.jpg",
+      imagearray: ["images/portfolio/NaturalLook2.jpg", "images/portfolio/NaturalLook1.jpg"],
       title:"Natural Looks",
       githubLink:"https://github.com",
-      fullDescription:"this is a longer description about this app"
+      //fullDescription:"this is a longer description about this app"
     },
     {
-      name:"project2",
-      description:"mobileapp",
-      imgurl:"images/portfolio/project.jpg",
+      name:"Holiday Looks",
+      description:"Holiday themed styles and ideas",
+      imgurl:"images/portfolio/holiday look1.jpg",
+      imagearray: ["images/portfolio/holiday look1.jpg", "images/portfolio/NaturalLook2.jpg"],
       title:"Holiday Looks",
       githubLink:"https://github.com",
-      fullDescription:"this is a longer description about this app"
+      //fullDescription:"this is a longer description about this app"
     },
     {
-      name:"project3",
-      description:"mobileapp",
-      imgurl:"images/portfolio/chatter.jpg",
+      name:"FX Design",
+      description:"Visual illusions and movie inspired looks",
+      imgurl:"images/portfolio/FX look 1.jpg",
+      imagearray: ["images/portfolio/FX look 1.jpg", "images/portfolio/FX look 2.jpg"],
       title:"FX Looks",
       githubLink:"https://github.com",
-      fullDescription:"this is a longer description about this app"
+      //fullDescription:"this is a longer description about this app"
     },
   ],
 }

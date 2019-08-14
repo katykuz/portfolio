@@ -34,7 +34,7 @@ export default  class Resume extends Component {
             </div>*/}
         <div className="row work">
             <div className="three columns header-col">
-               <h1><span>Work</span></h1>
+               <h1><span>Experience</span></h1>
             </div>
 
             <div className="nine columns main-col">
@@ -48,8 +48,10 @@ export default  class Resume extends Component {
                           {item.specialization}
                           <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
                           <p>
-                          {item.Achievements}
+                          {item.Achievements}                        
                           </p>
+                          <img src={item.Image} alt="" />                      
+                         
                        </div>
 
                     </div>
