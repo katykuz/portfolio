@@ -1,7 +1,7 @@
 let resumeData = {
-  name: "Brandi Halabi",
+  name: "Brandi Troth",
   role: "Make-Up Design Artist",
-  linkedinId:"katyk78",
+  linkedinId:"Brandi Troth",
   skypeid: "Your skypeid",
   roleDescription: "I'm passionate about making people feel beautiful for special events and experimenting with new designs",
   socialLinks:[
@@ -11,14 +11,14 @@ let resumeData = {
         className:"fa fa-linkedin"
       },
       {
-        name:"github",
-        url:"http://github.com/",
-        className:"fa fa-github"
+        name:"facebook",
+        url:"https://www.facebook.com/chickbabycosmetics",
+        className:"fa fa-facebook-square"
       },
       {
-        name:"skype",
-        url:"http://skype.com",
-        className:"fa fa-skype"
+        name:"instagram",
+        url:"https://www.instagram.com/chickybabycosmetics/",
+        className:"fa fa-instagram"
       }
     ],
   aboutme:"I am a self-taught make up artist that is inspired by artistic realism, optical illusions, FX make up style, as well as keeping up with latest modern make-up technologies.",
@@ -58,15 +58,15 @@ let resumeData = {
   skillsDescription:"My skills:",
   skills:[
     {
-      skillname:"Reactjs",
+      skillname:"Weddings",
       level:90,
     },
     {
-      skillname:"HTML5",
+      skillname:"Modeling Prep",
       level:70,
     },
     {
-      skillname:"CSS",
+      skillname:"FX",
       level: 80,
     },
   ],
@@ -74,28 +74,28 @@ let resumeData = {
     {
       name:"Natural Looks",
       description:"For everyday and special occasions",
-      imgurl:"images/portfolio/NaturalLook2.jpg",
-      imagearray: ["images/portfolio/NaturalLook2.jpg", "images/portfolio/NaturalLook1.jpg"],
+      imgurl:"images/portfolio/b00.jpg",
+      imagearray: ["images/portfolio/b0.jpg", "images/portfolio/b1.jpg", "images/portfolio/b2.jpg", "images/portfolio/b3.jpg", "images/portfolio/b4.jpg", "images/portfolio/natural1.jpg" ],
       title:"Natural Looks",
-      githubLink:"https://github.com",
+      githubLink:"https://www.facebook.com/chickbabycosmetics/",
       //fullDescription:"this is a longer description about this app"
     },
     {
       name:"Holiday Looks",
       description:"Holiday themed styles and ideas",
-      imgurl:"images/portfolio/holiday look1.jpg",
-      imagearray: ["images/portfolio/holiday look1.jpg", "images/portfolio/NaturalLook2.jpg"],
+      imgurl:"images/portfolio/h0.jpg",
+      imagearray: ["images/portfolio/h1.jpg", "images/portfolio/h2.jpg", "images/portfolio/h3.jpg", "images/portfolio/h4.jpg", "images/portfolio/h5.jpg", "images/portfolio/h6.jpg", "images/portfolio/h7.jpg", "images/portfolio/h8.jpg", "images/portfolio/h9.jpg",],
       title:"Holiday Looks",
-      githubLink:"https://github.com",
+      githubLink:"https://www.facebook.com/chickbabycosmetics/",
       //fullDescription:"this is a longer description about this app"
     },
     {
       name:"FX Design",
       description:"Visual illusions and movie inspired looks",
-      imgurl:"images/portfolio/FX look 1.jpg",
-      imagearray: ["images/portfolio/FX look 1.jpg", "images/portfolio/FX look 2.jpg"],
+      imgurl:"images/portfolio/fx1.jpg",
+      imagearray: ["images/portfolio/fx2.jpg", "images/portfolio/fx3.jpg", "images/portfolio/fx4.jpg", "images/portfolio/fx5.jpg", "images/portfolio/fx6.jpg", "images/portfolio/fx7.jpg", "images/portfolio/fx8.jpg",],
       title:"FX Looks",
-      githubLink:"https://github.com",
+      githubLink:"https://www.facebook.com/chickbabycosmetics/",
       //fullDescription:"this is a longer description about this app"
     },
   ],

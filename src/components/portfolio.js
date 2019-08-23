@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import resumeData from '../resumeData';
 import Modal from 'react-awesome-modal';
-//import NaturalLook2 from '../NaturalLook2.jpg'
 
 export default class Porfolio extends Component {
 
@@ -24,9 +23,9 @@ export default class Porfolio extends Component {
             resumeData.portfolio && resumeData.portfolio.map((item, i)=>{
               return(
                 <div key={i} className="columns portfolio-item">
-                  <div className="item-wrap">
+                  <div className="item-wrap" style={{width:275}}>
                     <div onClick={()=>this.setState({modal:item})} style={{cursor:'pointer'}}>
-                      <img src={`${item.imgurl}`} className="item-img" alt="img" style={{height:300}}/>
+                      <img src={`${item.imgurl}`} className="item-img" alt="img" style={{height:300, width:275}}/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
@@ -43,9 +42,9 @@ export default class Porfolio extends Component {
         </div>
       </div>
 
-      <Modal 
+      <Modal className="modal-body"
                     visible={modal&&modal.name}
-                    width="1000"
+                    width="1500"
                     height="600"
                     effect="fadeInUp"
                     onClickAway={() => this.closeModal()}
@@ -53,12 +52,14 @@ export default class Porfolio extends Component {
                     <div className="portfolio-modal">
                         <h1>{modal.title}</h1>
                         <p>{modal.description}</p>
-                        <div className="portfolio images">
+                        <div class="scrollmenu">
+                        <div className="portfolio-images">
                           {modal.imagearray && modal.imagearray.map((url)=>{
-                            return <img src={url} alt="img" style={{height:300}}/>
+                            return <img className="portfolio-images1" src={url} alt="img" style={{height:275}}/>
                           })}             
                           </div>
-                        <a href={modal.githubLink} target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i>&nbsp; Instagram </a>
+                          </div>
+                        <a href={modal.githubLink} target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook"></i>&nbsp; facebook </a>
                         </div>
                         <div className="buttonlocation">                     
                         <button className="button" onClick={() => this.closeModal()}>Close</button>

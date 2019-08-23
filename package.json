@@ -15,11 +15,11 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "rm -rf docs && react-scripts build && mv build docs",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://katykuz.github.io/portfolio/",
+  "homepage": "https://chickybabycosmetics.firebaseapp.com",
   "eslintConfig": {
     "extends": "react-app"
   },

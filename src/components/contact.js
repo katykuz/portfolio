@@ -15,8 +15,10 @@ export default class ContactUs extends Component {
           <div className="row">
             <aside className="eigth columns footer-widgets">
               <div className="widget">
-                <h4>Linked in:&nbsp;<a target="_blank" rel="noopener noreferrer" href={`https://www.linkedin.com/in/${resumeData.linkedinId}`}>{resumeData.linkedinId}</a>
+                <h4>Facebook:&nbsp;<a target="_blank" rel="noopener noreferrer" href={`https://www.facebook.com/brandi.halabi/`}>{resumeData.linkedinId}</a>
                 </h4>
+                <p className="lead" style={{color:'white'}}> <b> Email:</b> brandiflakes07@gmail.com</p>
+                <p className="lead" style={{color:'white'}}> < b>Phone:</b> (206) 850 - 5047</p>
               </div>
             </aside>
           </div>
